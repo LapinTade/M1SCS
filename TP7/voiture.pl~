@@ -1,0 +1,11 @@
+S = [[1,M1,CO1,CA1,O1,PU1],
+     [2,M2,CO2,CA2,O2,PU2],
+     [3,M3,CO3,CA3,O3,PU3],
+     [4,M4,CO4,CA4,O4,PU4],
+     [5,M5,CO5,CA5,O5,PU5]].
+%phase1
+member([1,saab,_,_,_,_]).
+%phase2
+member([2,_,bleu,_,_,_]).
+%phase3
+member([3,_,_,diesel,_,_]).

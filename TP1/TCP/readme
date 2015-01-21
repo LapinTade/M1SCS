@@ -1,0 +1,28 @@
+
+    EXEMPLES MINI DE CREATION DES SOCKETS EN MODE TCP
+    ---------------------------------------------
+
+   		TP M1 SCS
+	        ---------
+
+FICHIERS :
+----------
+
+clientTCP.c : programme client, envoie une chaine au serveur
+
+serveurTCP.c : programme serveur, recoit la chaine
+
+Makefile : compilation
+
+
+UTILISATION :
+-------------
+
+1. compilation : make
+
+2. execution du serveur : serveurTCP no_port 
+			  (ex: serveurTCP 2609)
+
+3. execution du client : clientTCP nom_machine_serveur no_port_serveur
+			 (ex: clientTCP doubs 2609)
+

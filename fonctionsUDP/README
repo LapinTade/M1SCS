@@ -1,0 +1,30 @@
+
+    FONCTIONS DE CREATION DES SOCKETS EN MODE UDP
+    ---------------------------------------------
+
+   		TP SCS MASTER 1 INFO
+	        -----------------------
+
+FICHIERS :
+----------
+
+fonctionsUDP.c : Creation d'une socket avec attribution d'un numero de port
+                Generation d'une structure d'adresse.
+
+emetteur.c : programme d'envoi, envoie une chaine a l'emetteur 
+
+recepteur.c : programme de reception, recoit la chaine
+
+Makefile : compilation
+
+
+UTILISATION :
+-------------
+
+1. compilation : make
+
+2. execution du recepteur : recepteur no_port_recepteur
+			 (ex: recepteur 2610)
+
+3. execution de l'emetteur : emetteur no_port_emetteur
+			  (ex: emetteur 2609)
